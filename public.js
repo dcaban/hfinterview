@@ -1,4 +1,5 @@
 
+var ogHash = ("593846452632");
 
 var letters = "acdfgilmnoprstuw";
 var reversedWord = [];
@@ -45,4 +46,8 @@ function hash(s)
 }
 
 
-hash("593846452632");
+hash(ogHash);
+
+
+$("#tortilla").append("The original number was: " + ogHash +"<br> The secret word is now: ");
+$("#tortilla").append(reversedWord);
